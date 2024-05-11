@@ -1,0 +1,42 @@
+baseURL = "https://bugs.cc/"
+theme = "hugo-bearcub"
+title = "Kevin Cui's Blog"
+copyright = "Kevin Cui (CC BY 4.0)"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+
+enableRobotsTXT = true
+
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = false
+
+[markup]
+  [markup.highlight]
+    lineNos = false
+    lineNumbersInTable = false
+    noClasses = false
+
+[languages]
+  [languages.en]
+    languageName = "en-US 🇺🇸"
+    LanguageCode = "en-US"
+    contentDir = "content"
+    weight = 1
+  [languages.zh]
+    languageName = "zh-CN 🇨🇳"
+    LanguageCode = "zh-CN"
+    contentDir = "content.zh"
+    weight = 2
+
+[params]
+  description = "Kevin Cui's Blog"
+  dateFormat = "2006-01-02"
+  madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
+  themeStyle = "/css/custom"
+
+  [params.social]
+    twitter = "Free_BlackHole"
+
+  [params.author]
+    name = "Kevin Cui"
+    email = "bh@bugs.cc"

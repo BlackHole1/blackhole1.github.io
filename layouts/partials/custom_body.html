@@ -1,0 +1,19 @@
+<div id="modal" class="hide">
+  <img class="modal-img" src="" alt="image">
+</div>
+{{ if .IsHome }}
+  {{ with resources.Get "js/date.js" | resources.Minify | resources.Fingerprint }}
+    <script defer src="{{ .RelPermalink }}"></script>
+  {{ end }}
+{{ end }}
+
+{{ if and (eq .FirstSection.Path "/posts") (.IsPage) }}
+  {{ with resources.Get "js/post.js" | resources.Minify | resources.Fingerprint }}
+    <script defer src="{{ .RelPermalink }}"></script>
+  {{ end }}
+
+  {{ if (.Page.Store.Get "existedCodeBlock") }}
+    <script defer src="/prism/prism.min.js"></script>
+  {{ end }}
+{{ end }}
+

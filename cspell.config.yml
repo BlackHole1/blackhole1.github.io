@@ -1,0 +1,13 @@
+$schema: https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json
+language: en
+ignoreRegExpList:
+  # e.g Cui's
+  - \S+\'s
+words:
+  - "EAAC"
+  - "sesmate"
+  - "IntelliJ"
+  - "vsock"
+  - "oomol"
+  - "pygmentscodefencesguesssyntax"
+  - "pygmentscodefences"
