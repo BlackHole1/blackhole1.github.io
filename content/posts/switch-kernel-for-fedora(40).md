@@ -26,7 +26,7 @@ sudo dnf install ./kernel-*
 ```
 Upon completion, it was necessary to switch to the newly installed `kernel` version. This could be managed using `sudo grubby --info=ALL` to view the list of system kernels, noting the desired `index` and `kernel`. For example:
 
-![Grubby info all](/img/post/switch-kernel-for-fedora-40/grubby-info-all.png)
+![Grubby info all](/images/switch-kernel-for-fedora-40/grubby-info-all.png)
 
 Next, a temporary switch to this `kernel` was made to ensure everything was working properly:
 
