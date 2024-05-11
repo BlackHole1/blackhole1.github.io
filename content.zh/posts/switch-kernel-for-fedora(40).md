@@ -27,7 +27,7 @@ sudo dnf install ./kernel-*
 ```
 安装完成后，我们需要切换到对应的 `kernel` 版本上。此时可以使用 `sudo grubby --info=ALL` 来查看当前系统的 `kernel` 列表。并记录下你想切换的 `index` 和 `kernel` 字段。如:
 
-![Grubby info all](/img/post/switch-kernel-for-fedora-40/grubby-info-all.png)
+![Grubby info all](/images/switch-kernel-for-fedora-40/grubby-info-all.png)
 
 然后先临时切换到这个 `kernel` 上，以便检测是否正常工作:
 
