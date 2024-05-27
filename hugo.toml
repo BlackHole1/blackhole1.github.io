@@ -40,3 +40,12 @@ pygmentscodefencesguesssyntax = false
   [params.author]
     name = "Kevin Cui"
     email = "bh@bugs.cc"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "docs"
+    name = "Docs"
+    url = "https://docs.bugs.cc"
+    params = {blank = true}
+    weight = 3
