@@ -159,6 +159,7 @@ ul.blog-posts li {
 
 ul.blog-posts li span {
   margin-right: 0.8em;
+  white-space: nowrap;
 
   & i {
     font-size: 0.8em;
