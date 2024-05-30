@@ -1,9 +1,11 @@
 ---
 title: macOS 10.15 下载及编译 Chromium
+description: 在 macOS 10.15 下载及编译 Chromium 的一些过程
 date: 2020-03-31T15:50:24+08:00
-url: p/macOS10.15-download-and-build-chromium
-tags: ['chromium']
-description: "在 macOS 10.15 下载及编译 Chromium 的一些过程"
+tags:
+  - chromium
+aliases:
+  - /p/macOS10.15-download-and-build-chromium
 ---
 
 ## 下载
@@ -65,7 +67,7 @@ enable_nacl = false
 
 ```gn
 # 开启 debug
-is_debug = true 
+is_debug = true
 # 编译成动态链接库
 is_component_build = true
 ```
@@ -103,7 +105,7 @@ ninja: build stopped: subcommand failed.
 
 去 chromium 论坛搜了下，有人说使用 `macOS 10.14 SDK` 就可以解决，于是我在 `Github` 上找到了[MacOSX-SDKs](https://github.com/phracker/MacOSX-SDKs) 项目，使用 `git clone` 拉下来，并执行 `ln -s /Users/black-hole/Code/Github/MacOSX-SDKs/MacOSX10.14.sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/`。
 
-然后重新开始构建，发现还是失败。看了错误，和之前一样。在错误详情里看到了 `MacOSX10.15.sdk` 的字样，说明编译时，没有命中 `10.14` 的 `SDK` 
+然后重新开始构建，发现还是失败。看了错误，和之前一样。在错误详情里看到了 `MacOSX10.15.sdk` 的字样，说明编译时，没有命中 `10.14` 的 `SDK`
 
 翻了下代码，在 `build/config/mac/mac_sdk.gni` 中找到了相关的参数定义:
 
@@ -114,7 +116,7 @@ ninja: build stopped: subcommand failed.
 mac_sdk_path = ""
 ```
 
-找到定义后，在 `args.gn` 文件里，加入 `mac_sdk_path = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"` 
+找到定义后，在 `args.gn` 文件里，加入 `mac_sdk_path = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"`
 
 但是发现还是编译失败，而且错误信息没有在 `Chromium` 论坛找到相关的信息。
 

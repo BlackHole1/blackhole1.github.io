@@ -1,10 +1,14 @@
 ---
 title: JavaScript集成Sentry
+description: 在React里集成Sentry，以及浅入介绍原理
 date: 2018-08-24 09:16:33
-url: p/javaScript-integration-sentry
-tags: ['JavaScript', 'React', 'Electron']
-description: "在React里集成Sentry，以及浅入介绍原理"
-aliases: ['/2018/08/24/javaScript-integration-sentry/']
+tags:
+  - javascript
+  - react
+  - electron
+aliases:
+  - /2018/08/24/javaScript-integration-sentry
+  - /p/javaScript-integration-sentry
 ---
 
 # Sentry-JavaScript
@@ -118,33 +122,33 @@ window.onerror = function (message, url, lineNo, colNo, errorObj) {
 
 #### 运行环境兼容性
 
-| 环境                    | message | url  | lineNo | colNo | errorObj |
-| ----------------------- | :-----: | :--: | :----: | :---: | :------: |
-| Firefox                 |    ✓    |  ✓   |   ✓    |   ✓   |    ✓     |
-| Chrom                   |    ✓    |  ✓   |   ✓    |   ✓   |    ✓     |
-| Edge                    |    ✓    |  ✓   |   ✓    |   ✓   |    ✓     |
-| IE 11                   |    ✓    |  ✓   |   ✓    |   ✓   |    ✓     |
-| IE 10                   |    ✓    |  ✓   |   ✓    |   ✓   |          |
-| IE 9                    |    ✓    |  ✓   |   ✓    |   ✓   |          |
-| IE 8                    |    ✓    |  ✓   |   ✓    |       |          |
-| Safari 10 and up        |    ✓    |  ✓   |   ✓    |   ✓   |    ✓     |
-| Safari 9                |    ✓    |  ✓   |   ✓    |   ✓   |          |
-| Opera 15+               |    ✓    |  ✓   |   ✓    |   ✓   |    ✓     |
-| Android Browser 4.4     |    ✓    |  ✓   |   ✓    |   ✓   |          |
-| Android Browser 4 - 4.3 |    ✓    |  ✓   |        |       |          |
-| 微信webview(安卓)       |    ✓    |  ✓   |   ✓    |   ✓   |          |
-| 微信webview(IOS)        |    ✓    |  ✓   |   ✓    |   ✓   |    ✓     |
-| WKWebview               |    ✓    |  ✓   |   ✓    |   ✓   |    ✓     |
-| UIWebview               |    ✓    |  ✓   |   ✓    |   ✓   |    ✓     |
+| 环境                    | message |  url  | lineNo | colNo | errorObj |
+| ----------------------- | :-----: | :---: | :----: | :---: | :------: |
+| Firefox                 |    ✓    |   ✓   |   ✓    |   ✓   |    ✓     |
+| Chrom                   |    ✓    |   ✓   |   ✓    |   ✓   |    ✓     |
+| Edge                    |    ✓    |   ✓   |   ✓    |   ✓   |    ✓     |
+| IE 11                   |    ✓    |   ✓   |   ✓    |   ✓   |    ✓     |
+| IE 10                   |    ✓    |   ✓   |   ✓    |   ✓   |          |
+| IE 9                    |    ✓    |   ✓   |   ✓    |   ✓   |          |
+| IE 8                    |    ✓    |   ✓   |   ✓    |       |          |
+| Safari 10 and up        |    ✓    |   ✓   |   ✓    |   ✓   |    ✓     |
+| Safari 9                |    ✓    |   ✓   |   ✓    |   ✓   |          |
+| Opera 15+               |    ✓    |   ✓   |   ✓    |   ✓   |    ✓     |
+| Android Browser 4.4     |    ✓    |   ✓   |   ✓    |   ✓   |          |
+| Android Browser 4 - 4.3 |    ✓    |   ✓   |        |       |          |
+| 微信webview(安卓)       |    ✓    |   ✓   |   ✓    |   ✓   |          |
+| 微信webview(IOS)        |    ✓    |   ✓   |   ✓    |   ✓   |    ✓     |
+| WKWebview               |    ✓    |   ✓   |   ✓    |   ✓   |    ✓     |
+| UIWebview               |    ✓    |   ✓   |   ✓    |   ✓   |    ✓     |
 
 #### 标签兼容性
 
-| 标签   | window.onerror是否能捕获                                     |
-| ------ | ------------------------------------------------------------ |
-| img    | 可以                                                         |
+| 标签   | window.onerror是否能捕获                                                                                        |
+| ------ | --------------------------------------------------------------------------------------------------------------- |
+| img    | 可以                                                                                                            |
 | script | 需要再script标签添加` crossorigin`属性，并在服务端允许跨域。如果不使用这个属性，错误信息只会显示`Script error.` |
-| css    | 不能                                                         |
-| iframe | 不能                                                         |
+| css    | 不能                                                                                                            |
+| iframe | 不能                                                                                                            |
 
 可以发现其浏览器都支持此方法。只是有些运行环境不支持`colNo`和`errorObj`，但是这块，`Sentry`已经帮你处理好了，所以不用担心。只是会在展示错误的时候，信息不太完整而已。
 

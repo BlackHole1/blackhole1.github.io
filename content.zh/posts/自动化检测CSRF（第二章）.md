@@ -1,10 +1,13 @@
 ---
 title: 自动化检测CSRF(第二篇)
+description: 使用浏览器插件做到自动检测CSRF漏洞
 date: 2016-06-23 23:49:34
-url: p/automated-detection-of-CSRF-second-part
-tags: ['Web Security', 'CSRF']
-description: "使用浏览器插件做到自动检测CSRF漏洞"
-aliases: ['/2016/06/23/automated-detection-of-CSRF-second-part/']
+tags:
+  - web security
+  - csrf
+aliases:
+  - /2016/06/23/automated-detection-of-CSRF-second-part
+  - /p/automated-detection-of-CSRF-second-part
 ---
 
 #### 0x00 前言：

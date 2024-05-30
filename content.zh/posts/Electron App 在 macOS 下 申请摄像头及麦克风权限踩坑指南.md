@@ -1,9 +1,12 @@
 ---
-title: "Electron App 在 MacOS 下 申请摄像头及麦克风权限踩坑指南"
+title: Electron App 在 MacOS 下 申请摄像头及麦克风权限踩坑指南
+description: 由 macOS 在 10.14 版本及以上版本增加了隐私的安全性，导致 Electron 应用在使用摄像头、麦克风时会 Crash
 date: 2019-10-23T09:55:00+08:00
-tags: ['Electron', 'macOS']
-url: p/electron-app-request-camera-and-microphone-permission-by-macos
-description: "由 macOS 在 10.14 版本及以上版本增加了隐私的安全性，导致 Electron 应用在使用摄像头、麦克风时会 Crash"
+tags:
+  - electron
+  - macos
+aliases:
+  - /p/electron-app-request-camera-and-microphone-permission-by-macos
 ---
 
 > 公司的 Electron 应用，偶尔会在 *设备检测* 时 `Crash` ，后来经过排查发现是当前 App 没有摄像头和麦克风的权限。导致在 *设备检测* 时出现了崩溃。

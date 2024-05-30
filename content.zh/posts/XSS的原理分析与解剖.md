@@ -1,10 +1,13 @@
 ---
 title: XSS的原理分析与解剖
+description: XSS原理分析第一章
 date: 2016-05-30 11:27:07
-url: p/principle-analysis-and-anatomy-of-xss
-tags: ['Web Security', 'XSS']
-description: "XSS原理分析第一章"
-aliases: ['/2016/05/30/principle-analysis-and-anatomy-of-xss/']
+tags:
+  - web security
+  - xss
+aliases:
+  - /2016/05/30/principle-analysis-and-anatomy-of-xss
+  - /p/principle-analysis-and-anatomy-of-xss
 ---
 
 ## 0×01 前言:

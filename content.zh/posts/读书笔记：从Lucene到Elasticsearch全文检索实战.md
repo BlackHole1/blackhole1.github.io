@@ -1,10 +1,14 @@
 ---
 title: 读书笔记：从Lucene到Elasticsearch:全文检索实战
+description: 笔记只有Elasticsearch搜索部分
 date: 2018-12-30 22:52:05
-url: p/reading-notes-from-lucene-to-elasticsearch-full-text-search
-tags: ['Elasticsearch', 'DSL', 'Kibana']
-description: "笔记只有Elasticsearch搜索部分"
-aliases: ['/2018/12/30/reading-notes-from-lucene-to-elasticsearch-full-text-search/']
+tags:
+  - elasticsearch
+  - dsl
+  - kibana
+aliases:
+  - /2018/12/30/reading-notes-from-lucene-to-elasticsearch-full-text-search
+  - /p/reading-notes-from-lucene-to-elasticsearch-full-text-search
 ---
 
 # 从Lucene到Elasticsearch:全文检索实战

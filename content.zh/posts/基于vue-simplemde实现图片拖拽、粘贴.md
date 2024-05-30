@@ -1,10 +1,14 @@
 ---
 title: 基于vue-simplemde实现图片拖拽、粘贴功能的一些思考
+description: 监听drop和paste事件来在vue-simplemde实现图片拖拽、粘贴功能
 date: 2018-04-12 11:00:12
-url: p/simplemde-realizes-some-thoughts-on-drag-and-drop-and-paste-function
-tags: ['JavaScript', 'Vue', 'Markdown']
-description: "监听drop和paste事件来在vue-simplemde实现图片拖拽、粘贴功能"
-aliases: ['/2018/04/12/simplemde-realizes-some-thoughts-on-drag-and-drop-and-paste-function/']
+tags:
+  - javascript
+  - vue
+  - markdown
+aliases:
+  - /2018/04/12/simplemde-realizes-some-thoughts-on-drag-and-drop-and-paste-function
+  - /p/simplemde-realizes-some-thoughts-on-drag-and-drop-and-paste-function
 ---
 
 # 前言

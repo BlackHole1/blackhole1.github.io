@@ -1,11 +1,16 @@
 ---
 title: 通过Webkit远程调试协议监听网页崩溃
-tag: ['JavaScript', 'NodeJs', 'Webkit', 'puppeteer', 'chrome']
+description: 基于chrome remote interface来检测网页是否Crash
 date: 2019-04-22 15:51:25
-url: p/webkit-remote-debugging-protocol-listening-crash
-tags: ['NodeJs']
-description: "基于chrome remote interface来检测网页是否Crash"
-aliases: ['/2019/04/22/webkit-remote-debugging-protocol-listening-crash/']
+tags:
+  - javascript
+  - nodejs
+  - webkit
+  - puppeteer
+  - chrome
+aliases:
+  - /2019/04/22/webkit-remote-debugging-protocol-listening-crash
+  - /p/webkit-remote-debugging-protocol-listening-crash
 ---
 
 ## 背景介绍

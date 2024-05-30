@@ -1,8 +1,10 @@
-+++
-title = '切换 Fedora(40) 内核'
-date = 2024-05-11T14:08:23+08:00
-draft = false
-+++
+---
+title: 切换 Fedora(40) 内核
+date: 2024-05-11T14:08:23+08:00
+tags:
+  - fedora
+  - kernel
+---
 
 前几天我从 Fedora 39 升级到了 Fedora 40，但是在升级后，我的 `VirtualBox` 无法正常启动了，提示我的 `kernel` 和 `kernel-header` 版本不匹配。
 

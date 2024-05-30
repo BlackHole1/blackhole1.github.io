@@ -1,9 +1,13 @@
 ---
-title: "构建 / 调试 Electron 源码"
+title: 构建 / 调试 Electron 源码
+description: 如何构建和调试 Electron 源码
 date: 2021-09-21T16:06:11+08:00
-url: p/build-and-debug-electron-code
-tags: ['Electron', 'LLDB', 'CLion']
-description: "如何构建和调试 Electron 源码"
+tags:
+  - electron
+  - lldb
+  - clion
+aliases:
+  - /p/build-and-debug-electron-code
 ---
 
 > 需要注意的是，本文使用的是 `CLion` IDE 以及 `macOS` 系统

@@ -1,10 +1,12 @@
 ---
 title: 在vmware里运行qcow2镜像
 date: 2018-01-23 09:12:31
-url: p/run-qcow2-image-in-vmware
-tags: ['Virtualization']
+tags:
+  - virtualization
 description: "使用qemu-img把qcow2转化为vmdk格式"
-aliases: ['/2018/01/23/run-qcow2-image-in-vmware/']
+aliases:
+  - /2018/01/23/run-qcow2-image-in-vmware
+  - /p/run-qcow2-image-in-vmware
 ---
 
 # 前言

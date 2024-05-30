@@ -1,9 +1,12 @@
 ---
-title: "动态修改 Protocol Buffers 的 string message"
+title: 动态修改 Protocol Buffers 的 string message
+description: 动态修改已编码的 pb message
 date: 2021-05-27T16:02:30+08:00
-tags: ['Protobuf', 'Golang']
-url: p/dynamically-modify-the-string-message-of-protocol-buffers
-description: "动态修改已编码的 pb message"
+tags:
+  - protobuf
+  - golang
+aliases:
+  - /p/dynamically-modify-the-string-message-of-protocol-buffers
 ---
 
 ## 前言

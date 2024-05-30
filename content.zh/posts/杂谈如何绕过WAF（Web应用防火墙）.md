@@ -1,10 +1,13 @@
 ---
 title: 杂谈如何绕过WAF（Web应用防火墙）
+description: 一些绕过WAF的小技巧
 date: 2016-08-20 19:04:31
-url: p/talk-about-how-to-bypass-WAF
-tags: ['Web Security', 'WAF']
-description: "一些绕过WAF的小技巧"
-aliases: ['/2016/08/20/talk-about-how-to-bypass-WAF/']
+tags:
+  - web security
+  - waf
+aliases:
+  - /2016/08/20/talk-about-how-to-bypass-WAF
+  - /p/talk-about-how-to-bypass-WAF
 ---
 
 > ### 0×01 前言：

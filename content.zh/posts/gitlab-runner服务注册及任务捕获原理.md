@@ -1,9 +1,12 @@
 ---
-title: "Gitlab Runner服务注册及任务捕获原理"
+title: Gitlab Runner服务注册及任务捕获原理
+description: 通过查看源码了解Gitlab-Runner的捕获原理
 date: 2019-07-06T16:12:58+08:00
-tags: ['gitlab', 'runner']
-url: p/gitlab-runner-service-registry-and-principle
-description: "通过查看源码了解Gitlab-Runner的捕获原理"
+tags:
+  - gitlab
+  - runner
+aliases:
+  - /p/gitlab-runner-service-registry-and-principle
 ---
 
 ## 环境搭建

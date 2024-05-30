@@ -1,10 +1,13 @@
 ---
 title: 分析axios源码来找出无法使用all和spread等方法的原因
+description: 通过分析Axios的源码，来找出无法使用部分Api的问题
 date: 2018-04-14 13:37:29
-url: p/analyz-the-axios-source-to-find-out-why-you-cant-use-all-and-spread-methods
-tags: ['JavaScript', 'Axios']
-description: "通过分析Axios的源码，来找出无法使用部分Api的问题"
-aliases: ['/2018/04/14/analyz-the-axios-source-to-find-out-why-you-cant-use-all-and-spread-methods/']
+tags:
+  - javascript
+  - axios
+aliases:
+  - /2018/04/14/analyz-the-axios-source-to-find-out-why-you-cant-use-all-and-spread-methods
+  - /p/analyz-the-axios-source-to-find-out-why-you-cant-use-all-and-spread-methods
 ---
 
 # 前言

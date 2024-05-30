@@ -1,10 +1,13 @@
 ---
-title: "基于任务量进行k8s集群的灵活调度处理"
+title: 基于任务量进行k8s集群的灵活调度处理
+description: 基于任务量进行k8s集群的灵活调度处理，以达到节省资源的目的
 date: 2019-08-20T14:55:19+08:00
-tags: ['k8s', 'go']
-url: p/flexible-scheduling-of-k8s-cluster-based-on-task-volume
-aliases: ['p/k8s-automatic-expansion-by-data']
-description: "基于任务量进行k8s集群的灵活调度处理，以达到节省资源的目的"
+tags:
+  - k8s
+  - golang
+aliases:
+  - /p/k8s-automatic-expansion-by-data
+  - /p/flexible-scheduling-of-k8s-cluster-based-on-task-volume
 ---
 
 ## 前言
@@ -171,7 +174,7 @@ type jobsSpec struct {
 func (j *jobsSpec) Create(envMap map[string]string) *batchv1.Job {
   u2 := uuid.NewV4().String()[:8]
   name := fmt.Sprint(j.Prefix, "-", u2)
-  
+
   return &batchv1.Job{
     ObjectMeta: metav1.ObjectMeta{
       Name:      name,
@@ -256,7 +259,7 @@ for _, data := range dbData {
 
   // 创建Job
   _, err = api.CreateJob(currentEnvMap)
-  
+
   if err != nil {
     panic("create job fail", err.Error())
   }
@@ -335,7 +338,7 @@ func GetJobLenByNS() (int, error) {
   if err != nil {
       return 最大值, err
   }
-  
+
   return len(jobItem), nil
 }
 ```

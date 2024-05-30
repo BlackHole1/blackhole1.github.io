@@ -1,9 +1,11 @@
 ---
-title: "从fdk_aac编码器到自动静态编译FFmpeg"
+title: 从fdk_aac编码器到自动静态编译FFmpeg
+description: 为了在FFmpeg集成libfdk_aac编码器，利用免费的gitlab-runner来做到自动静态编译FFmpeg
 date: 2019-07-15T10:20:57+08:00
-tags: ['FFmpeg', 'fdk_aac']
-url: p/in_fdk_aac_to_ffmpeg_static_build
-description: "为了在FFmpeg集成libfdk_aac编码器，利用免费的gitlab-runner来做到自动静态编译FFmpeg"
+tags:
+  - ffmpeg
+aliases:
+  - /p/in_fdk_aac_to_ffmpeg_static_build
 ---
 
 ## 前言

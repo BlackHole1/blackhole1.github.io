@@ -1,9 +1,12 @@
 ---
-title: "基于Gitlab CI的上线时间校验"
+title: 基于Gitlab CI的上线时间校验
+description: 通过对时间的判断来决定是否进行项目发布
 date: 2019-07-06T16:10:32+08:00
-url: p/gitlab-ci-production-date-check
-tags: ['CI/CD', 'gitlab']
-description: "通过对时间的判断来决定是否进行项目发布"
+tags:
+  - ci/cd
+  - gitlab
+aliases:
+  - /p/gitlab-ci-production-date-check
 ---
 
 ## 前提

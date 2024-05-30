@@ -1,10 +1,12 @@
 ---
 title: 公司wifi安全
+description: 公司一般对于wifi的安全没有足够的认知，这篇文章会大概说明wifi不进行管理会出现的一些问题
 date: 2016-12-13 11:00:48
-url: p/company-wifi-security
-tags: ['Wireless Security']
-description: "公司一般对于wifi的安全没有足够的认知，这篇文章会大概说明wifi不进行管理会出现的一些问题"
-aliases: ['/2016/12/13/company-wifi-security/']
+tags:
+  - wireless security
+aliases:
+  - /2016/12/13/company-wifi-security
+  - /p/company-wifi-security
 ---
 
 #### 0x0 前言：

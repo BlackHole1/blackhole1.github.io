@@ -1,9 +1,15 @@
 ---
-title: "Web安全概览"
+title: Web安全概览
+description: 介绍Web端常见的攻击手法及原理(如：XSS、CSRF、SSRF、JSON Hijacking)。并且提供Docker靶场，方便根据介绍的攻击手法去实战
 date: 2019-10-17T20:26:07+08:00
-tags: ['安全', 'web', 'xss', 'csrf', 'ssrf', 'JSON Hijacking']
-url: p/web-security-overview
-description: "介绍Web端常见的攻击手法及原理(如：XSS、CSRF、SSRF、JSON Hijacking)。并且提供Docker靶场，方便根据介绍的攻击手法去实战"
+tags:
+  - web
+  - xss
+  - csrf
+  - ssrf
+  - json hijacking
+aliases:
+  - /p/web-security-overview
 ---
 
 ## 前言

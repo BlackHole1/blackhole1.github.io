@@ -1,10 +1,15 @@
 ---
 title: Webm进度条问题分析与解决
+description: 分析问题出现的原因，并为此寻找相关的解决方案
 date: 2019-05-21 15:30:21
-url: p/webm-progress-bar-problem-and-solution
-tags: ['JavaScript', 'Webm', 'getUserMedia', 'MediaRecorder', 'FFmpeg', 'chrome']
-description: "分析问题出现的原因，并为此寻找相关的解决方案"
-aliases: ['/2019/05/21/webm-progress-bar-problem-and-solution/']
+tags:
+  - javascript
+  - webm
+  - ffmpeg
+  - chrome
+aliases:
+  - /2019/05/21/webm-progress-bar-problem-and-solution
+  - /p/webm-progress-bar-problem-and-solution
 ---
 
 ## 介绍

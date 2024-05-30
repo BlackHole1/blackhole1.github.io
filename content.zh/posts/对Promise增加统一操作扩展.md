@@ -1,10 +1,13 @@
 ---
 title: 对Promise增加统一操作扩展
+description: 添加一个无论是否成功失败，都会调用的函数，且函数知道上一步的状态
 date: 2018-01-06 17:34:21
-url: p/add-unified-operation-extensions-to-promise
-tags: ['JavaScript', 'Promise']
-description: "添加一个无论是否成功失败，都会调用的函数，且函数知道上一步的状态"
-aliases: ['/2018/01/06/add-unified-operation-extensions-to-promise/']
+tags:
+  - javascript
+  - promise
+aliases:
+  - /2018/01/06/add-unified-operation-extensions-to-promise
+  - /p/add-unified-operation-extensions-to-promise
 ---
 
 # 前言

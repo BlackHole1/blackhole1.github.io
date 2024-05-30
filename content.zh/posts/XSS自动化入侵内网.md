@@ -1,9 +1,12 @@
 ---
 title: XSS自动化入侵内网
+description: 利用webrtc的特性对内网进行检测、入侵
 date: 2016-12-14 22:40:25
-url: p/use-xss-automation-invade-intranet
-tags: ['Web Security', 'XSS']
-description: "利用webrtc的特性对内网进行检测、入侵"
+tags:
+  - web security
+  - xss
+aliases:
+  - /p/use-xss-automation-invade-intranet
 ---
 
 ## 0x01 前言：

@@ -1,9 +1,14 @@
 ---
-title: "Podman 基本原理及通信机制"
+title: Podman 基本原理及通信机制
+description: 介绍 Podman 如何和容器通信
 date: 2023-08-07T18:21:14+08:00
-url: p/podman-basic-principles-and-communication-mechanisms
-tags: ['podman', 'linux', 'gvp', 'container']
-description: "介绍 Podman 如何和容器通信"
+tags:
+  - podman
+  - linux
+  - gvp
+  - container
+aliases:
+  - /p/podman-basic-principles-and-communication-mechanisms
 ---
 
 Podman 是 daemonless 的开源容器引擎，相比 Docker 而言，Podman 不需要运行守护进程，而是直接通过 libpod 库来管理容器，这样就可以避免 Docker 的一些安全问题，比如 Docker 的守护进程需要 root 权限，而 Podman 可以通过普通用户来管理容器。

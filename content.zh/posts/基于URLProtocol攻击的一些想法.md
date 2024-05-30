@@ -1,10 +1,13 @@
 ---
 title: 基于URLProtocol攻击的一些想法
+description: 基于URLProtocol协议的一些攻击手法的想法
 date: 2017-03-26 16:33:52
-url: p/some-ideas-based-on-URLProtocol-attacks
-tags: ['Web Security', 'JavaScript']
-description: "基于URLProtocol协议的一些攻击手法的想法"
-aliases: ['/2017/03/26/some-ideas-based-on-URLProtocol-attacks/']
+tags:
+  - web security
+  - javascript
+aliases:
+  - /2017/03/26/some-ideas-based-on-URLProtocol-attacks
+  - /p/some-ideas-based-on-URLProtocol-attacks
 ---
 
 浏览器调起本地应用的原理是`URLProtocol`技术，详情可以在

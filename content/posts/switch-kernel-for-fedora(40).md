@@ -1,8 +1,10 @@
-+++
-title = 'Switch Kernel for Fedora(40)'
-date = 2024-05-11T14:08:23+08:00
-draft = false
-+++
+---
+title: Switch Kernel for Fedora(40)
+date: 2024-05-11T14:08:23+08:00
+tags:
+  - fedora
+  - kernel
+---
 
 A few days ago, I upgraded from Fedora 39 to Fedora 40. However, after the upgrade, my `VirtualBox` could not start properly due to a mismatch between the `kernel` and `kernel-header` versions.
 

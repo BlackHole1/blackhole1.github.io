@@ -1,10 +1,14 @@
 ---
 title: 基于Vue+Koa的pm2配置
+description: 使用pm2管理vue前端和koa后端项目
 date: 2017-11-07 21:37:00
-url: p/koa-pm2-configuration
-tags: ['NodeJs', 'Vue', 'Koa']
-description: "使用pm2管理vue前端和koa后端项目"
-aliases: ['/2017/11/07/Koa-pm2-configuration/']
+tags:
+  - nodejs
+  - vue
+  - koa
+aliases:
+  - /2017/11/07/Koa-pm2-configuration
+  - /p/koa-pm2-configuration
 ---
 
 ## 背景介绍

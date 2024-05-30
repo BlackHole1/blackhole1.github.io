@@ -1,10 +1,12 @@
 ---
 title: 在debian下如何使用迅雷登陆账号
 date: 2016-08-24 13:08:47
-url: p/how-to-use-thunder-login-account-under-debian
-tags: ['Linux']
+tags:
+  - Linux
 description: "使用wine在Linux打开迅雷时，是无法进行登陆的，这里使用wireshark来解决这个问题"
-aliases: ['/2016/08/24/how-to-use-thunder-login-account-under-debian/']
+aliases:
+  - /2016/08/24/how-to-use-thunder-login-account-under-debian
+  - /p/how-to-use-thunder-login-account-under-debian
 ---
 
 ## 前言：

@@ -1,10 +1,13 @@
 ---
 title: 聊聊RxJS中的错误重试
+description: 使用RxJS操作符对请求进行错误重试
 date: 2019-01-12 18:52:05
-url: p/rxjs-error-retry
-categories: ['JavaScript', 'RxJS']
-description: "使用RxJS操作符对请求进行错误重试"
-aliases: ['/2019/01/12/rxjs-error-retry/']
+tags:
+  - javascript
+  - rxjs
+aliases:
+  - /2019/01/12/rxjs-error-retry
+  - /p/rxjs-error-retry
 ---
 
 ### 前言

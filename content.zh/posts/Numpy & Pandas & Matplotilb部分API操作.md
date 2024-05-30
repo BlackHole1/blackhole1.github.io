@@ -1,10 +1,12 @@
 ---
 title: Numpy & Pandas & Matplotilb部分API操作
+description: 介绍下Numpy、Pandas、Matplotilb部分的API
 date: 2017-11-12 21:04:48
-url: p/numpy-pandas-mateplotilb-some-api
-tags: ['Python']
-description: "介绍下Numpy、Pandas、Matplotilb部分的API"
-aliases: ['/2017/11/12/numpy-pandas-mateplotilb-some-api/']
+tags:
+  - python
+aliases:
+  - /2017/11/12/numpy-pandas-mateplotilb-some-api
+  - /p/numpy-pandas-mateplotilb-some-api
 ---
 
 ## Numpy
