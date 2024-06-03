@@ -35,4 +35,5 @@ $ qemu-img convert -f qcow2 CentOS_7.2_x86_64_XD.qcow2 -O vmdk Centos.vmdk
 
 下面是演示视频：
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GE1dkDgRSPA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{{< youtube GE1dkDgRSPA >}}
+
