@@ -22,11 +22,15 @@ pygmentscodefencesguesssyntax = false
     LanguageCode = "en-US"
     contentDir = "content"
     weight = 1
+    [languages.en.params]
+      RSS = "/index.xml"
   [languages.zh]
     languageName = "zh-CN 🇨🇳"
     LanguageCode = "zh-CN"
     contentDir = "content.zh"
     weight = 2
+    [languages.zh.params]
+      RSS = "/zh/index.xml"
 
 [params]
   description = "Kevin Cui's Blog"

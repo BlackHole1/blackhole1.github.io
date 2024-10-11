@@ -5,7 +5,7 @@
     <a href="{{ .URL }}" target="_blank">{{ .Name }}</a>
   {{end}}
 {{ end }}
-<a href='{{ absURL "index.xml" }}'>RSS</a>
+<a href='{{ absURL .Site.Params.RSS }}'>RSS</a>
 
 <!-- Convert this page's translations into a dict -->
 {{ $translations := dict }}
