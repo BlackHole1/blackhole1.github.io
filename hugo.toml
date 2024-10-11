@@ -24,6 +24,8 @@ pygmentscodefencesguesssyntax = false
     weight = 1
     [languages.en.params]
       RSS = "/index.xml"
+      FollowFeedID = "67444163872609280"
+
   [languages.zh]
     languageName = "zh-CN 🇨🇳"
     LanguageCode = "zh-CN"
@@ -31,12 +33,15 @@ pygmentscodefencesguesssyntax = false
     weight = 2
     [languages.zh.params]
       RSS = "/zh/index.xml"
+      FollowFeedID = "67444337223193600"
 
 [params]
   description = "Kevin Cui's Blog"
   dateFormat = "2006-01-02"
   madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
   themeStyle = "/css/custom"
+
+  FollowUserId = "67028119038586880"
 
   [params.social]
     twitter = "Free_BlackHole"
