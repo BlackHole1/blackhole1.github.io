@@ -2,7 +2,7 @@ baseURL = "https://bugs.cc/"
 theme = "hugo-bearcub"
 title = "Kevin Cui's Blog"
 copyright = "Kevin Cui (CC BY 4.0)"
-languageCode = "en-us"
+locale = "en-US"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
@@ -11,6 +11,8 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = false
 
 [markup]
+  [markup.goldmark.renderer]
+    unsafe = true
   [markup.highlight]
     lineNos = false
     lineNumbersInTable = false
@@ -18,8 +20,8 @@ pygmentscodefencesguesssyntax = false
 
 [languages]
   [languages.en]
-    languageName = "en-US 🇺🇸"
-    LanguageCode = "en-US"
+    label = "en-US 🇺🇸"
+    locale = "en-US"
     contentDir = "content"
     weight = 1
     [languages.en.params]
@@ -27,8 +29,8 @@ pygmentscodefencesguesssyntax = false
       FollowFeedID = "67444163872609280"
 
   [languages.zh]
-    languageName = "zh-CN 🇨🇳"
-    LanguageCode = "zh-CN"
+    label = "zh-CN 🇨🇳"
+    locale = "zh-CN"
     contentDir = "content.zh"
     weight = 2
     [languages.zh.params]

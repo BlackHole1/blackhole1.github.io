@@ -14,13 +14,15 @@
 {{ end }}
 
 <!-- Create a link to every translation -->
-{{ range where .Site.Languages "Lang" "!=" .Page.Lang }}
-  {{ with (index $translations .Lang) }}
-    <a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
-  {{ else }}
-    <!-- The complicated setup was necessary to make a grayed out link -->
-    {{ if not .Params.hideUntranslated }}
-      <a class="disabled" role="link" aria-disabled="true">{{ .LanguageName }}</a>
+{{ range hugo.Sites }}
+  {{ if ne .Language.Lang $.Page.Lang }}
+    {{ with (index $translations .Language.Lang) }}
+      <a href="{{ .RelPermalink }}">{{ .Language.Label }}</a>
+    {{ else }}
+      <!-- The complicated setup was necessary to make a grayed out link -->
+      {{ if not .Params.hideUntranslated }}
+        <a class="disabled" role="link" aria-disabled="true">{{ .Language.Label }}</a>
+      {{ end }}
     {{ end }}
   {{ end }}
 {{ end }}
